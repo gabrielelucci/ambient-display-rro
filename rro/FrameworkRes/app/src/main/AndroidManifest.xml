@@ -1,0 +1,10 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="it.lucci.ui.framework">
+
+    <overlay android:targetPackage="android" android:priority="240"/>
+    <meta-data android:name="rom" android:value="AOSP" />
+    <meta-data android:name="infoShort" android:value="Lucci's Theme" />
+    <meta-data android:name="infoLong" android:value="Lucci's for Framework-res" />
+    <meta-data android:name="author" android:value="Gabriele Lucci" />
+
+</manifest>

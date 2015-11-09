@@ -1,0 +1,7 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="it.lucci.overlay.ui">
+    <overlay android:targetPackage="com.android.systemui" android:priority="240"/>
+    <meta-data android:name="rom" android:value="AOSP" />
+    <meta-data android:name="infoShort" android:value="Lucci's Theme" />
+    <meta-data android:name="infoLong" android:value="Lucci's for SystemUI" />
+    <meta-data android:name="author" android:value="Gabriele Lucci" />
+</manifest>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <bool name="doze_display_state_supported">true</bool>
+    <bool name="doze_pulse_on_significant_motion">false</bool>
+    <bool name="doze_pulse_on_pick_up">true</bool>
+    <bool name="doze_proximity_check_before_pulse">true</bool>
+    <bool name="doze_pulse_on_notifications">true</bool>
+    <bool name="doze_pickup_performs_proximity_check">true</bool>
+
+</resources>
