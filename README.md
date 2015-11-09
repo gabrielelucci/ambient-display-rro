@@ -4,6 +4,7 @@ If you don't know about RRO, you should read [this](https://github.com/deadman96
 Basically it is a native and powerful theme engine, originally developed by Sony. It swaps out the resources of the targeted Android package with the ones specified in /system/vendor/overlay. What are resources?
 According to [Google](http://developer.android.com/guide/topics/resources/index.html): 
 >It takes more than just code to build a great app. Resources are the additional files and static content that your code uses, such as bitmaps, layout definitions, user interface strings, animation instructions, and more.
+
 So, with RRO you can tweak the static content of an app. In this case, we change the value of some flags and contained in SystemUI.apk and Framework-res.apk to enable the _Ambient Display_ feature implemented in AOSP stock builds.
 
 Supported devices: Nexus 5.
