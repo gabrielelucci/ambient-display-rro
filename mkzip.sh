@@ -1,4 +1,5 @@
 #!/bin/bash
+#Automate the cration of zip for the plugin.
 themeName=ADEnabler_General.zip
 cd ./out
 zip $themeName *.apk
