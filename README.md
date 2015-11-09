@@ -19,7 +19,7 @@ Supported devices: Nexus 5.
 
 Even if all of the requirements are met, it is not guaranteed to work. 
 I only tested it on my Nexus 5 running stock Android 6.0 and it's working flawlessly. However, it's pretty safe to test it, if you encounter any problem (bootloops, force closes) just delete any apk in /system/vendor/overlay.
-Keep in mind that this is a very experimental workaround, there are probably better anjd cleaner ways to achieve this, consider this a RRO features experiment. 
+Keep in mind that this is a very experimental workaround, there are probably better and cleaner ways to achieve this, consider this a RRO features experiment. 
 
 ## How to install
 To install our "theme" we need to copy the apks of the overlays in /system/vendor/ovelay. There are several ways of doing it.
