@@ -1,11 +1,13 @@
 # ambient-display-rro (AKA "a RRO experiment")
-Enable _Ambient Display_ on any supported device running Android > 6.0 using Runtime Resource Overlays.
-If you don't know about RRO, you should read [this](https://github.com/deadman96385/RRO-WIKI/wiki/About-RRO).
-Basically it is a native and powerful theme engine, originally developed by Sony. It swaps out the resources of the targeted Android package with the ones specified in /system/vendor/overlay. What are resources?
+Enable _Ambient Display_ on any supported device running Android > 6.0 using Runtime Resource Overlays!
+
+
+If you don't know what is RRO, you should read [this](https://github.com/deadman96385/RRO-WIKI/wiki/About-RRO).
+Basically it is a native and powerful theme engine, originally developed by Sony and included in AOSP code. It swaps out the resources of the targeted Android package with the ones specified. But wait... What are resources?
 According to [Google](http://developer.android.com/guide/topics/resources/index.html): 
 >It takes more than just code to build a great app. Resources are the additional files and static content that your code uses, such as bitmaps, layout definitions, user interface strings, animation instructions, and more.
 
-So, with RRO you can tweak the static content of an app. In this case, we change the value of some flags and contained in SystemUI.apk and Framework-res.apk to enable the _Ambient Display_ feature implemented in AOSP stock builds.
+So, RRO allows you to tweak the static content of an app. In this case, we change the value of some flags and strings and contained in SystemUI.apk and Framework-res.apk in order to (hopefully) enable the _Ambient Display_ feature implemented in Andorid stock builds.
 
 Supported devices: Nexus 5.
 
@@ -20,7 +22,7 @@ I only tested it on my Nexus 5 running stock Android 6.0 and it's working flawle
 Keep in mind that this is a very experimental workaround, there are probably better anjd cleaner ways to achieve this, consider this a RRO features experiment. 
 
 ## How to install
-
+To install our "theme" we need to copy the apks of the overlays in /system/vendor/ovelay. There are several ways of doing it.
 ### Easy way
 Download the apks (./out) and copy them to /system/vendor/overlay using any file manager that allows writing in /system partition. Reboot and you're done, you should see a the Ambient Display toggle in Settings>Display. 
 ### Easiest way
@@ -29,10 +31,10 @@ First, install Layers Manager app from Play Store. Then build (./bitsyko-plugin)
 ## Project Structure
 
 ### ./bitsyko-plugin
-This is the Android Studio project of the plugin component of Layers Manager by Bitsyko Development team. Basically this is a tool that automates the copying of the overlays in /system/vendor/overlay.
+This is the Android Studio project of the plugin component of Layers Manager by Bitsyko Development team. Basically this is a tool that automates the copying of the overlays in /system/vendor/overlay. [Read more](https://github.com/BitSyko/LayersThemePlugin_Example/wiki/How-to-make-a-Plugin-Overlay)
 
 ### ./rro
-Here we have the Android Studio projects of the overlays. 
+Here we have the Android Studio projects of the overlays. Priority defined in manifest should be >240.
 
 ### ./out
 Folder containing the actual packaged overlays.
