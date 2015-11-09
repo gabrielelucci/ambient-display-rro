@@ -7,7 +7,7 @@ Basically it is a native and powerful theme engine, originally developed by Sony
 According to [Google](http://developer.android.com/guide/topics/resources/index.html): 
 >It takes more than just code to build a great app. Resources are the additional files and static content that your code uses, such as bitmaps, layout definitions, user interface strings, animation instructions, and more.
 
-So, RRO allows you to tweak the static content of an app. In this case, we change the value of some flags and strings and contained in SystemUI.apk and Framework-res.apk in order to (hopefully) enable the _Ambient Display_ feature implemented in Andorid stock builds.
+So, RRO allows you to tweak the static content of an app. In this case, we change the value of some flags and strings and contained in SystemUI.apk and Framework-res.apk in order to (hopefully) enable the _Ambient Display_ feature implemented in Andoroid stock builds.
 
 Supported devices: Nexus 5.
 
@@ -26,7 +26,7 @@ To install our "theme" we need to copy the apks of the overlays in /system/vendo
 ### Easy way
 Download the apks (./out) and copy them to /system/vendor/overlay using any file manager that allows writing in /system partition. Reboot and you're done, you should see a the Ambient Display toggle in Settings>Display. 
 ### Easiest way
-First, install Layers Manager app from Play Store. Then build (./bitsyko-plugin) or download the plugin app and install it to device. Open Layers Manager, select the plugin and install every avaible overlay. Soft reboot. BOOM, Done.
+First, install Layers Manager app from Play Store. Then build (./bitsyko-plugin) or download the plugin app and install it to device. Open Layers Manager, select the plugin and install every available overlay. Reboot. BOOM, Done.
 
 ## Project Structure
 
