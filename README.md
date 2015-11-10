@@ -14,7 +14,7 @@ Supported devices: Nexus 5.
 ### Requirements:
 * Android 6.0 "Marshmallow" (Stock build)
 * RRO support (Android 6.0 should have it, but for example, GPE edition for HTC One M8 doesn't support RRO)
-* Device should have a proper implementation of (DozeService.java)[https://android.googlesource.com/platform/frameworks/base/+/777f5b2/packages/SystemUI/src/com/android/systemui/doze/DozeService.java] in SystemUI
+* Device should have a proper implementation of _[DozeService.java](https://android.googlesource.com/platform/frameworks/base/+/777f5b2/packages/SystemUI/src/com/android/systemui/doze/DozeService.java)_ in SystemUI
 * Root (busybox optional if you want to install via Layers Manager)
 
 Even if all of the requirements are met, it is not guaranteed to work. 
