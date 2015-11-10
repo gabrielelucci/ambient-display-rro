@@ -1,4 +1,4 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="it.lucci.overlay.ui">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="it.lucci.overlay.ade.systemui">
     <overlay android:targetPackage="com.android.systemui" android:priority="240"/>
     <meta-data android:name="rom" android:value="AOSP" />
     <meta-data android:name="infoShort" android:value="Lucci's Theme" />

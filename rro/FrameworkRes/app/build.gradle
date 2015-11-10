@@ -5,7 +5,7 @@ android {
     buildToolsVersion "23.0.1"
 
     defaultConfig {
-        applicationId "it.lucci.overlay.ui"
+        applicationId "it.lucci.overlay.ade.framework"
         minSdkVersion 23
         targetSdkVersion 23
         versionCode 1

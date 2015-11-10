@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="it.lucci.ui.framework">
+    package="it.lucci.overlay.ade.framework">
 
     <overlay android:targetPackage="android" android:priority="240"/>
     <meta-data android:name="rom" android:value="AOSP" />

@@ -12,7 +12,10 @@
     </string>
 
     <!-- Changelog -->
-    <string name="ThemeChangelog">First release.</string>
+    <string name="ThemeChangelog">
+        First release.\n
+        -Set config_screenBrightnessDoze to higher value
+    </string>
 
     <!-- Names of the apps overlayed by a normal Overlay: Normal Overlays are the Overlays which are only available in one color -->
     <!-- KEEP EMPTY IF YOU DONT HAVE ANY NORMAL OVERLAYS-->
