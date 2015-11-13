@@ -1,4 +1,5 @@
 # Built application files
+/.gradle
 *.apk
 *.ap_
 
@@ -25,7 +26,6 @@ proguard/
 
 # Log Files
 *.log
-
 
 # User-specific stuff:
 .idea/workspace.xml
