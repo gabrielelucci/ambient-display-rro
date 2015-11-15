@@ -10,7 +10,7 @@
     <bool name="config_powerDecoupleAutoSuspendModeFromDisplay">false</bool>
     <!-- -->
     <bool name="config_powerDecoupleInteractiveModeFromDisplay">true</bool>
-    <!-- Screen brightness when dozing. -->
+    <!-- Screen brightness when dozigit commitng. -->
     <integer name="config_screenBrightnessDoze">17</integer>
     <!-- -->
     <fraction name="config_screenAutoBrightnessDozeScaleFactor">100.0%</fraction>
