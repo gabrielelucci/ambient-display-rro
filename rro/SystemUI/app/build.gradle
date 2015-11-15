@@ -1,9 +1,7 @@
 apply plugin: 'com.android.application'
-
 android {
     compileSdkVersion 23
     buildToolsVersion "23.0.1"
-
     defaultConfig {
         applicationId "it.lucci.overlay.ade.systemui"
         minSdkVersion 23
@@ -21,7 +19,6 @@ android {
         }
     }
 }
-
 def appendVersionName(variant, defaultConfig) {
     variant.outputs.each { output ->
         if (output.zipAlign) {
