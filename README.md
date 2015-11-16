@@ -39,3 +39,6 @@ Here we have the Android Studio projects of the overlays. Priority defined in ma
 ### ./out
 Folder containing the actual packaged overlays.
 
+## License
+This project is licensed under the Apache 2.0 License. See LICENSE for more info.
+
