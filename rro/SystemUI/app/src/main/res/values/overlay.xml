@@ -9,7 +9,7 @@
     <!-- Doze: can we assume the pickup sensor includes a proximity check? -->
     <bool name="doze_proximity_check_before_pulse">true</bool>
     <!-- Doze: should notifications be used as a pulse signal? -->
-    <bool name="doze_pulse_on_notifications">false</bool>
+    <bool name="doze_pulse_on_notifications">true</bool>
     <!-- Doze: can we assume the pickup sensor includes a proximity check? -->
     <bool name="doze_pickup_performs_proximity_check">true</bool>
     <!-- Doze: maximum brightness to use when pulsing -->
